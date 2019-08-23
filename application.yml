@@ -1,14 +1,14 @@
 spring: 
     profiles: 
-    active: 
-    -dev
+     active: 
+     -dev
 ---
 spring: 
     profiles: dev
     application: 
-        name: microservicecloud-config-itliuyue-dev
+       name: microservicecloud-config-itliuyue-dev
 ---
 spring: 
     profiles: test
     application: 
-        name: microservicecloud-config-itliuyue-test
+      name: microservicecloud-config-itliuyue-test
